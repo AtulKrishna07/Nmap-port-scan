@@ -1,0 +1,70 @@
+# Nmap 7.97 scan initiated Mon Jun 23 21:46:10 2025 as: nmap -sS -oN scan_result1.txt 192.168.1.0/24
+Nmap scan report for local.airtelfiber.com (192.168.1.1)
+Host is up (0.0011s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+5555/tcp open  freeciv
+MAC Address: B4:A7:C6:22:1A:00 (Servercom (India) Private Limited)
+
+Nmap scan report for 192.168.1.2
+Host is up (0.089s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+6668/tcp open  irc
+MAC Address: 50:8B:B9:89:69:18 (Tuya Smart)
+
+Nmap scan report for 192.168.1.4
+Host is up (0.042s latency).
+All 1000 scanned ports on 192.168.1.4 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 86:C5:D3:25:0E:45 (Unknown)
+
+Nmap scan report for 192.168.1.5
+Host is up (0.0032s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: E8:65:D4:2F:91:78 (Tenda Technology,Ltd.Dongguan branch)
+
+Nmap scan report for 192.168.1.6
+Host is up (0.0076s latency).
+Not shown: 956 filtered tcp ports (no-response), 41 closed tcp ports (reset)
+PORT      STATE SERVICE
+1080/tcp  open  socks
+8888/tcp  open  sun-answerbook
+10001/tcp open  scp-config
+MAC Address: 08:A6:BC:D5:09:2E (Amazon Technologies)
+
+Nmap scan report for 192.168.1.8
+Host is up (0.021s latency).
+All 1000 scanned ports on 192.168.1.8 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: E8:65:D4:2F:91:78 (Tenda Technology,Ltd.Dongguan branch)
+
+Nmap scan report for 192.168.1.9
+Host is up (0.0077s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: E8:65:D4:2F:91:78 (Tenda Technology,Ltd.Dongguan branch)
+
+Nmap scan report for 192.168.1.10
+Host is up (0.000049s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+445/tcp open  microsoft-ds
+
+Nmap scan report for 192.168.1.11
+Host is up (0.00017s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+# Nmap done at Mon Jun 23 21:48:06 2025 -- 256 IP addresses (9 hosts up) scanned in 116.31 seconds
